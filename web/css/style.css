@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	font-family: 'Libre Baskerville', serif;
+	background: url(../img/background.jpg) no-repeat;
+	height: 100%;
+    background-size: cover;
+}
+
+header{
+	
+
+	height: 800px;
+
+} 
+.container{
+	width: 775px;
+	height: 205px;
+	
+}
+
+.logo{
+	margin-left: 40px;
+	float: left;
+	margin-top: 85px;
+	margin-right: 84px;
+}
+nav{
+	
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+	width: 840px;
+}
+.menu li {
+	float: left;
+	margin-top: 180px;
+	display: block;
+	margin-right: 34px;
+	display: inline;
+	
+	padding: 2px;
+	text-align: center;
+	position: relative;
+
+
+}
+.menu a ::after{
+	position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: black;
+    content: '';
+    opacity: 0;
+
+}
+.menu a::before{
+	bottom: 0;
+
+}
+ .menu a:hover{
+ 	border-bottom: 1px solid #fff;
+ 	text-decoration-line: overline;
+ 	margin:1px 0em;
+
+ }
+.menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+
+}
+h2{
+	color: #fff;
+	font-size: 19px;
+	padding:0px 54px;/*30*/
+	position: absolute;
+}
+
+
+.accordion {
+  width: 9px;
+  height: 9px;
+  padding: 8px;
+  color: none;
+  border: 1px;
+  border-radius: 9px;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: none;
+  float: left;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: none;
+}
+
+.accordion:after {
+    content: url(../img/plus.png);
+    color: #fff;
+    float: left;
+    margin-left: -8px;
+    margin-top: -8px;
+    position: absolute;
+}
+
+.active:after {
+    content: url(../img/minus.png);/*    margin-left: -8px;
+    margin-top: -8px;*/
+}
+
+.hide_text {
+    padding: 0 78px;
+    background-color: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: inline-block;
+}
+.hide_text p{
+	text-decoration: #fff;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 26px;
+}
+.P1 .P2{
+	margin: 43px;
+}
+
+.D1 .D2 .D3 .D4 .D5{
+	display: inline-block;
+}
+.block{
+	margin-top: 30px;
+	margin-left: 20px;
+	display: block;
+	margin: 68px 17px;
+}
+
+footer{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #999;
+	position: relative;
+	left:20px;
+	bottom: 10px;
+
+}
+.pol{
+	color: #999;
+}
